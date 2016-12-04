@@ -1,0 +1,15 @@
+TextureTransferInitialize
+TextureTransferInitializeWithHandlers
+TextureTransferTerminate
+TextureTransferPrintStackTrace
+mlxCut
+cut
+mlxDemo
+Demo
+mlxFind_mindelta
+find_mindelta
+mlxGet_ssd
+get_ssd
+mlxTexture_transfer
+texture_transfer
+
