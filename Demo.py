@@ -5,12 +5,12 @@ import scipy
 from scipy import ndimage
 from texture_transfer import texture_transfer
 
-texture=cv2.imread('../MyTextures/code.png')
-target= cv2.imread('../Targetimages/data/martinimgs/0.png')
+texture=cv2.imread('../MyTextures/Orange.png')
+target= cv2.imread('../Targetimages/data/apple.png')
 
-texture = scipy.misc.imresize(texture, 0.2)
+# texture = scipy.misc.imresize(texture, 0.7)
 texture = cv2.normalize(texture.astype('float'), None, 0.0, 1.0, cv2.NORM_MINMAX)
-target = scipy.misc.imresize(target, 0.2)
+# target = scipy.misc.imresize(target, 1)
 target = cv2.normalize(target.astype('float'), None, 0.0, 1.0, cv2.NORM_MINMAX)
 
 # texture=double(texture)
