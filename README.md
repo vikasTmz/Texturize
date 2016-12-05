@@ -1,8 +1,7 @@
 # ImageQuilting
 Image Quilting for Texture Transfer
-```
 
-### Examples
+# Examples
 ![Example 1](Output/Markcode.png?raw=true "Example 1")
 ![Example 2](Output/Zackstone.png?raw=true "Example 2")
 ![Example 3](Output/jole.png?raw=true "Example 3")
